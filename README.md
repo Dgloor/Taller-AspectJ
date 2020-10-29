@@ -2,21 +2,21 @@
 
 --- 
 
-### Objetivos
+## Objetivos
 - Implementar un requerimiento utilizando el paradigma orientado a aspectos.
 
 
 ## Evidencias
 
-- ##### Creacion de Usuario 
+- #### Creacion de Usuario 
     ![...](SimpleBank/imagenes/opcion1.png?raw=true "Imagen 1")
 
 
-- ##### Realizar Transacción 
+- #### Realizar Transacción 
     ![...](SimpleBank/imagenes/opcion2.png?raw=true "Imagen 2")
 
 
-- ##### Retiro 
+- #### Retiro 
     ![...](SimpleBank/imagenes/opcion3.png?raw=true "Imagen 3")
 
 ## Autores:
