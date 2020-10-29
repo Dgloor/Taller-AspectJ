@@ -9,16 +9,17 @@
 ## Evidencias
 
 - #### Creacion de Usuario 
-    ![](SimpleBank/imagenes/opcion1.png?raw=true "Imagen 1")
+    ![](https://raw.githubusercontent.com/Dgloor/Taller02-AspectJ/main/Capturas/create_user.jpg)
 
-
-- #### Realizar Transacción 
-    ![](SimpleBank/imagenes/opcion2.png?raw=true "Imagen 2")
-
-
+- #### Depósito
+    ![](https://raw.githubusercontent.com/Dgloor/Taller02-AspectJ/main/Capturas/deposito.png)
+    
 - #### Retiro 
-    ![](SimpleBank/imagenes/opcion3.png?raw=true "Imagen 3")
-
+    ![](https://raw.githubusercontent.com/Dgloor/Taller02-AspectJ/main/Capturas/retiro.jpg)
+    
+- #### Escritura archivo
+    ![](https://raw.githubusercontent.com/Dgloor/Taller02-AspectJ/main/Capturas/log_txt.png)
+    
 ## Autores:
 <div>
 <a title="Joangie Márquez" href="https://github.com/joangiemarquez">
