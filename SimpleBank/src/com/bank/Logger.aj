@@ -4,7 +4,15 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Calendar;
 
-public aspect Log {
+public aspect Logger {
+	  pointcut success() : call(* create*(..) );
+	    after() : success() {
+	    //Aspecto ejemplo: solo muestra este mensaje despu�s de haber creado un usuario 
+	    	System.out.println("**** User created ****");
+	    }
+}
+
+aspect Log {
     Calendar cal = Calendar.getInstance();
     String suceso = "";
 	
@@ -18,10 +26,16 @@ public aspect Log {
     
     pointcut transaccion() : execution(* moneyMakeTransaction(..));
     after() : transaccion() {
-    	suceso= "DEPOSITO - " + cal.getTime();
+    	suceso= "TRANSACCIÓN - " + cal.getTime();
     	escribirLog(suceso);
     	System.out.println("Se realizó la transacción");
-
+    }
+    
+    pointcut retiro() : execution(* moneyWithdrawal(..));
+    after() : retiro(){
+    	suceso = "RETIRO - " + cal.getTime();
+    	escribirLog(suceso);
+    	System.out.println("Se realizó el retiro");
     }
     
     before() : transaccion(){
