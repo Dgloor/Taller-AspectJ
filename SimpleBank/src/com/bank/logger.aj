@@ -1,11 +1,3 @@
-import java.io.BufferedWriter;
-import java.io.File;
-import java.io.FileWriter;
-import java.io.IOException;
-import java.util.Calendar;
-
-import com.bank.Bank;
-
 aspect Logger {
 	  pointcut success() : call(* create*(..) );
 	    after() : success() {
