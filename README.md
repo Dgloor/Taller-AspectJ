@@ -9,15 +9,15 @@
 ## Evidencias
 
 - #### Creacion de Usuario 
-    ![...](SimpleBank/imagenes/opcion1.png?raw=true "Imagen 1")
+    ![](SimpleBank/imagenes/opcion1.png?raw=true "Imagen 1")
 
 
 - #### Realizar Transacción 
-    ![...](SimpleBank/imagenes/opcion2.png?raw=true "Imagen 2")
+    ![](SimpleBank/imagenes/opcion2.png?raw=true "Imagen 2")
 
 
 - #### Retiro 
-    ![...](SimpleBank/imagenes/opcion3.png?raw=true "Imagen 3")
+    ![](SimpleBank/imagenes/opcion3.png?raw=true "Imagen 3")
 
 ## Autores:
 <div>
