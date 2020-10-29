@@ -20,6 +20,7 @@ public aspect Log {
     after() : transaccion() {
     	suceso= "DEPOSITO - " + cal.getTime();
     	escribirLog(suceso);
+    	System.out.println("Se realizó la transacción");
 
     }
     
